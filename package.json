@@ -1,0 +1,24 @@
+{
+  "name": "@wonkytech/template-utils",
+  "version": "0.0.1",
+  "description": "Scripts to help with initialising a project from a template repository",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmcmaster/template-utils.git"
+  },
+  "author": "Tim McMaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmcmaster/template-utils/issues"
+  },
+  "homepage": "https://github.com/tmcmaster/template-utils#readme",
+  "bin": {
+    "template-init": "./template-init.js"
+  },
+  "dependencies": {
+    "prompts": "^2.3.0",
+    "replace-in-file": "^4.2.0"
+  }
+}
